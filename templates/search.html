@@ -45,7 +45,11 @@
 
         <div class="paper-card">
 
-            <h3>{{ paper.title }}</h3>
+            <h3>
+    <a href="{{ paper.url }}" target="_blank" rel="noopener noreferrer">
+        {{ paper.title }}
+    </a>
+</h3>
 
             <p class="paper-meta">
                 Authors: {{ paper.authors }} |
