@@ -43,69 +43,163 @@ app.config["SESSION_COOKIE_SECURE"] = (
 PAPERS = [
     {
         "id": 1,
-        "title": "Machine Learning for Healthcare",
-        "authors": "Example Research Group",
-        "year": 2024,
-        "abstract": (
-            "Machine learning techniques for disease "
-            "prediction and healthcare analysis."
-        ),
-        "url": "https://arxiv.org/"
+        "title": "Attention Is All You Need",
+        "authors": "Ashish Vaswani et al.",
+        "year": 2017,
+        "abstract": "Introduces the Transformer architecture for natural language processing.",
+        "url": "https://arxiv.org/abs/1706.03762"
     },
     {
         "id": 2,
-        "title": "Deep Learning for Image Classification",
-        "authors": "Example Computer Vision Group",
-        "year": 2023,
-        "abstract": (
-            "Deep learning and convolutional neural networks "
-            "for image recognition and classification."
-        ),
-        "url": "https://arxiv.org/"
+        "title": "BERT: Pre-training of Deep Bidirectional Transformers",
+        "authors": "Jacob Devlin et al.",
+        "year": 2018,
+        "abstract": "A language representation model using bidirectional pre-training.",
+        "url": "https://arxiv.org/abs/1810.04805"
     },
     {
         "id": 3,
-        "title": "AI-Based Crop Disease Detection",
-        "authors": "Example Agriculture AI Group",
-        "year": 2024,
-        "abstract": (
-            "Artificial intelligence and computer vision "
-            "for detecting crop diseases."
-        ),
-        "url": "https://arxiv.org/"
+        "title": "Deep Residual Learning for Image Recognition",
+        "authors": "Kaiming He et al.",
+        "year": 2015,
+        "abstract": "Introduces residual neural networks for image recognition.",
+        "url": "https://arxiv.org/abs/1512.03385"
     },
     {
         "id": 4,
-        "title": "Natural Language Processing Using AI",
-        "authors": "Example NLP Group",
-        "year": 2023,
-        "abstract": (
-            "Natural language processing techniques "
-            "for understanding human language."
-        ),
-        "url": "https://arxiv.org/"
+        "title": "Generative Adversarial Networks",
+        "authors": "Ian Goodfellow et al.",
+        "year": 2014,
+        "abstract": "Introduces adversarial training for generative models.",
+        "url": "https://arxiv.org/abs/1406.2661"
     },
     {
         "id": 5,
-        "title": "Recommendation Systems Using Machine Learning",
-        "authors": "Example Recommendation Systems Group",
-        "year": 2024,
-        "abstract": (
-            "Content-based filtering and machine learning "
-            "algorithms for recommendations."
-        ),
-        "url": "https://arxiv.org/"
+        "title": "Deep Learning",
+        "authors": "Yoshua Bengio, Ian Goodfellow, Aaron Courville",
+        "year": 2015,
+        "abstract": "An introduction to deep learning methods and applications.",
+        "url": "https://arxiv.org/abs/1603.05691"
     },
     {
         "id": 6,
-        "title": "Sales Forecasting Using Machine Learning",
-        "authors": "Example Forecasting Group",
+        "title": "Machine Learning: A Probabilistic Perspective",
+        "authors": "Kevin P. Murphy",
+        "year": 2012,
+        "abstract": "Probabilistic methods and foundations of machine learning.",
+        "url": "https://probml.github.io/pml-book/"
+    },
+    {
+        "id": 7,
+        "title": "Playing Atari with Deep Reinforcement Learning",
+        "authors": "Volodymyr Mnih et al.",
+        "year": 2013,
+        "abstract": "Uses deep reinforcement learning to learn Atari games.",
+        "url": "https://arxiv.org/abs/1312.5602"
+    },
+    {
+        "id": 8,
+        "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+        "authors": "Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton",
+        "year": 2012,
+        "abstract": "Demonstrates deep convolutional networks for image classification.",
+        "url": "https://proceedings.neurips.cc/paper/2012/hash/c399862d3b9d6b76c8436e924a68c45b-Abstract.html"
+    },
+    {
+        "id": 9,
+        "title": "Show and Tell: A Neural Image Caption Generator",
+        "authors": "Oriol Vinyals et al.",
+        "year": 2015,
+        "abstract": "Combines computer vision and language generation to describe images.",
+        "url": "https://arxiv.org/abs/1411.4555"
+    },
+    {
+        "id": 10,
+        "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+        "authors": "Dzmitry Bahdanau, Kyunghyun Cho, Yoshua Bengio",
+        "year": 2014,
+        "abstract": "Introduces attention for neural machine translation.",
+        "url": "https://arxiv.org/abs/1409.0473"
+    },
+    {
+        "id": 11,
+        "title": "Language Models are Few-Shot Learners",
+        "authors": "Tom B. Brown et al.",
+        "year": 2020,
+        "abstract": "Studies few-shot learning capabilities of large language models.",
+        "url": "https://arxiv.org/abs/2005.14165"
+    },
+    {
+        "id": 12,
+        "title": "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale",
+        "authors": "Alexey Dosovitskiy et al.",
+        "year": 2020,
+        "abstract": "Applies Transformer architectures to image classification.",
+        "url": "https://arxiv.org/abs/2010.11929"
+    },
+    {
+        "id": 13,
+        "title": "Denoising Diffusion Probabilistic Models",
+        "authors": "Jonathan Ho, Ajay Jain, Pieter Abbeel",
+        "year": 2020,
+        "abstract": "Presents diffusion models for generating data.",
+        "url": "https://arxiv.org/abs/2006.11239"
+    },
+    {
+        "id": 14,
+        "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+        "authors": "Patrick Lewis et al.",
+        "year": 2020,
+        "abstract": "Combines information retrieval with text generation.",
+        "url": "https://arxiv.org/abs/2005.11401"
+    },
+    {
+        "id": 15,
+        "title": "Adam: A Method for Stochastic Optimization",
+        "authors": "Diederik P. Kingma, Jimmy Ba",
+        "year": 2014,
+        "abstract": "Introduces the Adam optimization algorithm for training models.",
+        "url": "https://arxiv.org/abs/1412.6980"
+    },
+    {
+        "id": 16,
+        "title": "The Llama 3 Herd of Models",
+        "authors": "Aaron Grattafiori et al.",
         "year": 2024,
-        "abstract": (
-            "Machine learning methods for predicting future "
-            "sales using historical data."
-        ),
-        "url": "https://arxiv.org/"
+        "abstract": "Describes the Llama 3 family of large language models.",
+        "url": "https://arxiv.org/abs/2407.21783"
+    },
+    {
+        "id": 17,
+        "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+        "authors": "Nils Reimers, Iryna Gurevych",
+        "year": 2019,
+        "abstract": "Creates sentence embeddings for semantic similarity and search.",
+        "url": "https://arxiv.org/abs/1908.10084"
+    },
+    {
+        "id": 18,
+        "title": "Deep Neural Networks for YouTube Recommendations",
+        "authors": "Paul Covington, Jay Adams, Emre Sargin",
+        "year": 2016,
+        "abstract": "Describes a deep learning system for video recommendations.",
+        "url": "https://research.google/pubs/deep-neural-networks-for-youtube-recommendations/"
+    },
+    {
+        "id": 19,
+        "title": "XGBoost: A Scalable Tree Boosting System",
+        "authors": "Tianqi Chen, Carlos Guestrin",
+        "year": 2016,
+        "abstract": "Introduces a scalable tree boosting system for machine learning.",
+        "url": "https://arxiv.org/abs/1603.02754"
+    },
+    {
+        "id": 20,
+        "title": "A Survey on Data Collection for Machine Learning",
+        "authors": "Yuji Roh, Geon Heo, Steven Euijong Whang",
+        "year": 2018,
+        "abstract": "Reviews data collection, data labeling, and machine learning datasets.",
+        "url": "https://arxiv.org/abs/1811.03402"
     }
 ]
 
